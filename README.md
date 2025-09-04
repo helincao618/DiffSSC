@@ -52,12 +52,12 @@ cd DiffSSC/
 pip install -r requirements.txt
 ```
 
-5. Installing MinkowskiEngine:
+4. Installing MinkowskiEngine:
 ```
 pip3 install -U MinkowskiEngine==0.5.4 --install-option="--blas=openblas" -v --no-deps
 ```
 
-4. We use [dvis](https://github.com/SirWyver/dvis) for visualization, which is a lightweight but efficient tool with a web server. We recommend you to use another conda environment to visualize the result. 
+5. We use [dvis](https://github.com/SirWyver/dvis) for visualization, which is a lightweight but efficient tool with a web server. We recommend you to use another conda environment to visualize the result. 
 
 ```
 conda create --name dvis python=3.8 requests matplotlib pyyaml tqdm imageio
